@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <div class="task-input">
+            <input type="text" id="taskDescription" placeholder="Task Description">
+            <input type="number" id="taskPriority" placeholder="Priority">
+            <button id="addTaskButton">Add Task</button>
+        </div>
+        <div class="task-lists">
+            <div class="task-list" id="list">
+                <h2>List</h2>
+                <ul id="taskList"></ul>
+            </div>
+            <div class="task-list" id="stack">
+                <h2>Stack</h2>
+                <ul id="taskStack"></ul>
+            </div>
+            <div class="task-list" id="queue">
+                <h2>Queue</h2>
+                <ul id="taskQueue"></ul>
+            </div>
+            <div class="task-list" id="heap">
+                <h2>Heap</h2>
+                <ul id="taskHeap"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
